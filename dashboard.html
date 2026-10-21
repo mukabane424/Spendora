@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="bg-light">
+
+   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#">MyWebsite</a>
+
+           
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+           
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+   
+    <div id="featuredCarousel" class="carousel slide mx-auto my-4 shadow-sm" data-bs-ride="carousel" style="max-width: 900px;">
+
+       
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#featuredCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#featuredCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#featuredCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        
+       
+        <div class="carousel-inner rounded-3">
+
+            
+            <div class="carousel-item active">
+                <img src="https://picsum.photos" class="d-block w-100" alt="First Slide Image">
+                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded-2 p-2">
+                    <h5>Explore New Dimensions</h5>
+                    <p>Discover pristine environments and beautiful landscapes.</p>
+                </div>
+            </div>
+
+            
+            <div class="carousel-item">
+                <img src="https://picsum.photos" class="d-block w-100" alt="Second Slide Image">
+                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded-2 p-2">
+                    <h5>Innovate Your Workflow</h5>
+                    <p>Build complex architectures using clean and scalable patterns.</p>
+                </div>
+            </div>
+
+            
+            <div class="carousel-item">
+                <img src="https://picsum.photos" class="d-block w-100" alt="Third Slide Image">
+                <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded-2 p-2">
+                    <h5>Achieve Your Milestones</h5>
+                    <p>Ship modern software platforms efficiently every single day.</p>
+                </div>
+            </div>
+        </div>
+
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#featuredCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#featuredCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <script src="https://jsdelivr.net"></script>
+
+    
+</body>
+</html>

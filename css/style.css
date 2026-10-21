@@ -1,0 +1,28 @@
+button{
+
+    background-color: blue;
+    color: tomato;
+    margin: 20px;
+    padding-left: 10px;
+    border-radius: 10px;
+
+
+}
+
+
+h2{
+
+   text-align: center;
+   font-size: 30px; 
+   background-color: black;
+   color: azure;
+   line-height: 80px;
+   text-shadow: 8px  4px 8px burlywood;
+
+}
+
+img{
+
+    width: 300px;
+    height: 400px;
+}
